@@ -1,0 +1,7 @@
+book_filename: "Economía del Medio Ambiente"
+delete_merged_file: true
+output_dir: docs
+language:
+  ui:
+    chapter_name: "Capítulo"
+new_session: true
