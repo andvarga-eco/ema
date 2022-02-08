@@ -1,0 +1,72 @@
+
+
+# La economía y la biosfera
+
+
+<div class="figure" style="text-align: center">
+<img src="C:/Users/andre/Google Drive/Uninorte/Uninorte-docencia/bookdown/EMA/ema/img/ec_env.png" alt="Actividad económica y ambiente Fuente: Tomado de Pearman, Fig 2.1" width="80%" />
+<p class="caption">(\#fig:unnamed-chunk-1)Actividad económica y ambiente Fuente: Tomado de Pearman, Fig 2.1</p>
+</div>
+
+<br/>
+
+El sistema económico en su versión más simple está conformado por individuos y firmas. Si nos concentramos en el flujo real vemos que los individuos entregan su trabajo a las firmas, quienes lo combinan con el capital manufacturado y el capital natural para producir bienes y servicios, los cuales son consumidos por los individuos (y otras firmas). La producción de bienes y servicios consiste, en últimas, en la transformación de unos bienes y servicios en otros más complejos. La producción y el consumo genera desechos que vuelven al ambiente. 
+
+Además de estas dos funciones, recursos y sumidero de desechos, el ambiente beneficia a los individuos a través de la las posibilidades de recreación que presta y el goce estético de los paisajes, es decir amenidades. Además de esto, el ambiente mantiene las condiciones necesarias para que la vida humana sea posible, representado por la línea exterior gruesa. A través de las funciones de regulación de los ecosistemas podemos disfrutar de una adecuada disponibilidad de agua fresca, de un clima estable, entre otros beneficios. 
+
+Algunas de estas funciones son parcialmente sustituibles a través de capital y tecnología. Por ejemplo, a través del reciclaje devolvemos una porción de los bienes al proceso económico. La purificación de agua que realiza la vegetación la podemos realizar con una planta de tratamiento ¿Las posibilidades de sustitución y el reciclaje significan que la naturaleza no implica restricciones fundamentales al proceso económico?
+
+Si la producción no es otra cosa que la transformación de materia, lo cual requiere energía, entonces el sistema económico está sujeto a las leyes de la termodinámica. De acuerdo a la primera ley de la termodinámica la energía puede ser transformada de una forma a otra, pero no puede ser creada ni destruida. La segunda ley, entropía, indica que la energía se mueve inevitablemente hacia una mayor homogeneidad. El calor fluye espontáneamente de un cuerpo más caliente a uno más frío, y este calor no puede ser transformado en en trabajo con total eficiencia. En otra palabras, el cambio es irreversible. Un vehículo usa la energía química disponible en la gasolina,  a través de la combustión, y la transforma en energía kinética y calor. El calor es energía no disponible para realizar trabajo. 
+
+La economía es un sistema abierto, es decir que intercambia energía y materia con su entorno. La tierra, en cambio, es un sistema cerrado pues solo intercambia energía con el universo. Decimos, además, que la primera y segunda ley también aplican para la materia. Así, para la economía, la primer ley implica que no podemos hacer algo de la nada, que toda la producción humana proviene de los recursos de la naturaleza. Los recursos son transformados a través del proceso de producción en algo que nos interesa a los humanos. Esta transformación requiere trabajo, para lo cual necesitamos energía libre. La segunda ley nos dice que, inevitablemente todo lo que producimos se desgastará, desintegrará, disipará en algo inútil, retornando al ambiente en forma de desecho. El sistema económico lo podemos entender como un sistema ordenado para transformar materia prima y energía libre en desechos de alta entropía y energía no disponible. Es decir, que la capacidad del sistema para producir puede mantener únicamente a través del influjo constante de energía y materia de baja entropía.  
+
+
+## Crecimiento y consumo a largo plazo
+
+Empezaremos con un modelo simple de la economía en el que se examinan las condiciones para que se pueda obtener un consumo per cápita que no decrece a lo largo del tiempo. Esta idea es consistente con la conceptualización estándar de desarrollo sostenible
+
+> Desarrollo que satisface las necesidades del presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades
+>
+><footer>--- Reporte Bruntland</footer>
+
+Veremos que la condición clave tiene que ver con las posibilidades de sustitución entre los factores producción, además del cambio tecnológico. Decimos que la economía consiste en un único bien cuya cantidad producida ($Y$) se consume ($C$) o se invierte ($I$). Para producir $Y$ se requiere capital manufacturado $K$, capital humano, $H$ y capital natural, $R$. 
+
+Acá, $R$ es el flujo de lo que tomamos de la biosfera de forma directa. Los millones de barriles de petróleo al año, los millones de toneladas de minerales al año, los metros cúbicos de agua al año, las toneladas de alimentos al año, etc. Note que algunos de ellos son renovables y otros no renovables. En lo que sigue, solo tendremos en cuenta los recursos no renovables y que por lo tanto al inicio del periodo de planeación tienen un stock dado. 
+
+Tomemos como punto de partida el modelo de Solow, donde el sistema está caracterizado por la función de producción
+
+\begin{equation}
+\tag{1}
+Y_t=AK^{\alpha}_tH^{\beta}_t
+\end{equation}
+
+y la ecuación de acumulación de capital
+
+\begin{equation}
+\tag{2}
+\dot{K}_t=Y_t-C_t-\delta K_t
+\end{equation}
+
+Suponemos que la población y la tecnología crecen a tasas constantes determinadas exógenamente. 
+
+<br/>
+
+En este modelo, $Y$ puede crecer indefinidamente. El ingreso por persona crece en el largo plazo al ritmo que crece la tecnología. No hay límites
+
+Ahora, integremos $R$ al análisis, y por simplicidad no consideremos $H$. La función de producción se convierte en 
+
+\begin{equation}
+\tag{3}
+Y_t=AK^{\alpha}_tR^{\beta}_t
+\end{equation}
+
+y además de la ecuación $(2)$ debemos caracterizar la dinámica del recurso natural. Llamamos $S_t$ al stock del recurso, entonces su cambio en el tiempo está dado por la cantidad que extraemos $R$
+
+\begin{equation}
+\tag{4}
+\dot{S}_t=-R_t
+\end{equation}
+
+En ausencia de cambio tecnológico, $Y$ puede crecer indefinidamente si hay suficientes posibilidades de sustitución de capital natural por capital manufacturado. Como el stock de recursos naturales se va agotando, y como estos esenciales en la producción, el ritmo de extracción no puede aumentar, luego la única manera de incrementar la producción es usar más $K$. Si incluimos el cambio tecnológico, obtenemos que la tecnología permite superar las limitaciones de la finitud de $R$ y por lo tanto es posible el crecimiento indefinido de $Y$ y del ingreso per cápita. 
+
+Los modelos de crecimiento estándar nos llevan a pensar que la producción económica puede incrementarse indefinidamente sin afectar la biosfera de manera fundamental, sin sacarla del régimen de estabilidad  en el que se ha desarrollado la humanidad. Lo único que necesitamos es que el inagotable ingenio humano nos permita encontrar continuamente formas de utilizar cada vez menos insumos de la naturaleza. De alguna manera, podemos desligarnos. Estas ideas han sido dominantes en los 60 o más años, y sin embargo, es en este periodo de tiempo donde el incremento de la producción ha significado una demanda por recursos de la naturaleza de una escala tal que causa el cambio climático y la pérdida acelerada de diversidad biológica. 
